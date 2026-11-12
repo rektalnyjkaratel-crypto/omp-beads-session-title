@@ -1,0 +1,25 @@
+{
+  "name": "omp-beads-session-title",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Annotate OMP session titles with active Beads issues",
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "omp-plugin",
+    "pi-package",
+    "beads"
+  ],
+  "omp": {
+    "extensions": [
+      "./src/extension.ts"
+    ]
+  },
+  "pi": {
+    "extensions": [
+      "./src/extension.ts"
+    ]
+  }
+}
